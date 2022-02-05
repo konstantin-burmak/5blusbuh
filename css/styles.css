@@ -830,6 +830,10 @@
         margin: 0;
     }
 
+    .intro-blue-button {
+        max-width: 280px;
+    }
+
     .iMac-logo {
         padding-top: 20px;
     }
