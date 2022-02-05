@@ -80,6 +80,9 @@
     list-style: none;
     margin-right: 25px;
 }
+ .media-mobile {
+     display: none;
+ }
 
 /* Intro block */
 .intro-left-block {
@@ -304,9 +307,6 @@
 }
 
 /* Services box */
-
-.services-box
-}
 
 .services-box-about {
     padding-top: 20px;
@@ -801,6 +801,10 @@
         margin: 0 20px 20px 20px;
     }
 
+    .menu-open .media-desktop {
+        display: none;
+    }
+
     .intro-block-head {
         font-size: 40px;
     }
@@ -975,8 +979,12 @@
         margin-bottom: 20px;
     }
 
-    .carousel-main-text {
-        max-width: 320px;
+    .media-desktop {
+        display: none;
+    }
+
+    .nav-item-footer.media-mobile {
+        display: block;
     }
 }
 
